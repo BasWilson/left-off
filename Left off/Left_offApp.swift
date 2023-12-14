@@ -8,11 +8,15 @@
 import SwiftUI
 import SwiftData
 
+
+
 @main
 struct Left_offApp: App {
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Project.self,
+            Day.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -23,10 +27,28 @@ struct Left_offApp: App {
         }
     }()
 
+    @ObservedObject var store = Store()
+    
     var body: some Scene {
+        #if os(macOS)
         WindowGroup {
-            ContentView()
+            IndexView()
+            .environmentObject(store)
         }
         .modelContainer(sharedModelContainer)
+        #endif
+        
+        #if os(iOS)
+        WindowGroup {
+            NavigationStack(path: $store.navPath) {
+                IndexView()
+                    .navigationDestination(for: AppView.self) { appview in
+                        ViewFactory.viewForDestination(appview)
+                    }
+            }
+            .environmentObject(store)
+        }
+        .modelContainer(sharedModelContainer)
+        #endif
     }
 }

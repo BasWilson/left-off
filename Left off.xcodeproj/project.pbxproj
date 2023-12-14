@@ -7,21 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1617C42B2B2189001C03FF /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617C32B2B2189001C03FF /* NoteView.swift */; };
+		2D1617C72B2B3110001C03FF /* NoDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617C62B2B3110001C03FF /* NoDaysView.swift */; };
+		2D1617C92B2B444A001C03FF /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617C82B2B444A001C03FF /* ViewFactory.swift */; };
 		2D51C3D22B27714400B25D0C /* Left_offApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D12B27714400B25D0C /* Left_offApp.swift */; };
-		2D51C3D42B27714400B25D0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D32B27714400B25D0C /* ContentView.swift */; };
-		2D51C3D62B27714400B25D0C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D52B27714400B25D0C /* Item.swift */; };
+		2D51C3D42B27714400B25D0C /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D32B27714400B25D0C /* IndexView.swift */; };
+		2D51C3D62B27714400B25D0C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D52B27714400B25D0C /* Project.swift */; };
 		2D51C3D82B27714400B25D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D51C3D72B27714400B25D0C /* Assets.xcassets */; };
 		2D51C3DC2B27714400B25D0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D51C3DB2B27714400B25D0C /* Preview Assets.xcassets */; };
+		2D51C3E32B27732300B25D0C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E22B27732300B25D0C /* Day.swift */; };
+		2D51C3E52B27757400B25D0C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E42B27757400B25D0C /* DetailView.swift */; };
+		2D51C3E72B27772E00B25D0C /* NewProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E62B27772E00B25D0C /* NewProject.swift */; };
+		2D51C3E92B27817D00B25D0C /* FInishUpScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E82B27817D00B25D0C /* FInishUpScreen1.swift */; };
+		2D78FE592B286358006ED549 /* EditNoteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78FE582B286358006ED549 /* EditNoteSheet.swift */; };
+		2D78FE612B29EB18006ED549 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78FE602B29EB18006ED549 /* Store.swift */; };
+		2D78FE662B29F3B9006ED549 /* NewProjectSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78FE652B29F3B9006ED549 /* NewProjectSheet.swift */; };
+		2D78FE682B29F7E9006ED549 /* FinishUpScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78FE672B29F7E9006ED549 /* FinishUpScreen2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1617C32B2B2189001C03FF /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		2D1617C52B2B23DC001C03FF /* Left-off-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Left-off-Info.plist"; sourceTree = SOURCE_ROOT; };
+		2D1617C62B2B3110001C03FF /* NoDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDaysView.swift; sourceTree = "<group>"; };
+		2D1617C82B2B444A001C03FF /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
 		2D51C3CE2B27714400B25D0C /* Left off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Left off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D51C3D12B27714400B25D0C /* Left_offApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Left_offApp.swift; sourceTree = "<group>"; };
-		2D51C3D32B27714400B25D0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2D51C3D52B27714400B25D0C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2D51C3D32B27714400B25D0C /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
+		2D51C3D52B27714400B25D0C /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
 		2D51C3D72B27714400B25D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D51C3D92B27714400B25D0C /* Left_off.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Left_off.entitlements; sourceTree = "<group>"; };
 		2D51C3DB2B27714400B25D0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D51C3E22B27732300B25D0C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		2D51C3E42B27757400B25D0C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2D51C3E62B27772E00B25D0C /* NewProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProject.swift; sourceTree = "<group>"; };
+		2D51C3E82B27817D00B25D0C /* FInishUpScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInishUpScreen1.swift; sourceTree = "<group>"; };
+		2D78FE582B286358006ED549 /* EditNoteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteSheet.swift; sourceTree = "<group>"; };
+		2D78FE602B29EB18006ED549 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		2D78FE652B29F3B9006ED549 /* NewProjectSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProjectSheet.swift; sourceTree = "<group>"; };
+		2D78FE672B29F7E9006ED549 /* FinishUpScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishUpScreen2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +58,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1617C22B2B2176001C03FF /* components */ = {
+			isa = PBXGroup;
+			children = (
+				2D1617C32B2B2189001C03FF /* NoteView.swift */,
+				2D1617C62B2B3110001C03FF /* NoDaysView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		2D51C3C52B27714300B25D0C = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +86,13 @@
 		2D51C3D02B27714400B25D0C /* Left off */ = {
 			isa = PBXGroup;
 			children = (
+				2D1617C52B2B23DC001C03FF /* Left-off-Info.plist */,
+				2D1617C22B2B2176001C03FF /* components */,
+				2D78FE5C2B29EADE006ED549 /* observables */,
+				2D78FE5B2B29EABE006ED549 /* views */,
+				2D78FE5A2B29EAA5006ED549 /* models */,
+				2D78FE572B286338006ED549 /* sheets */,
 				2D51C3D12B27714400B25D0C /* Left_offApp.swift */,
-				2D51C3D32B27714400B25D0C /* ContentView.swift */,
-				2D51C3D52B27714400B25D0C /* Item.swift */,
 				2D51C3D72B27714400B25D0C /* Assets.xcassets */,
 				2D51C3D92B27714400B25D0C /* Left_off.entitlements */,
 				2D51C3DA2B27714400B25D0C /* Preview Content */,
@@ -70,6 +106,45 @@
 				2D51C3DB2B27714400B25D0C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D78FE572B286338006ED549 /* sheets */ = {
+			isa = PBXGroup;
+			children = (
+				2D78FE582B286358006ED549 /* EditNoteSheet.swift */,
+				2D78FE652B29F3B9006ED549 /* NewProjectSheet.swift */,
+			);
+			path = sheets;
+			sourceTree = "<group>";
+		};
+		2D78FE5A2B29EAA5006ED549 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				2D51C3E22B27732300B25D0C /* Day.swift */,
+				2D51C3D52B27714400B25D0C /* Project.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		2D78FE5B2B29EABE006ED549 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				2D51C3D32B27714400B25D0C /* IndexView.swift */,
+				2D51C3E42B27757400B25D0C /* DetailView.swift */,
+				2D51C3E82B27817D00B25D0C /* FInishUpScreen1.swift */,
+				2D51C3E62B27772E00B25D0C /* NewProject.swift */,
+				2D78FE672B29F7E9006ED549 /* FinishUpScreen2.swift */,
+				2D1617C82B2B444A001C03FF /* ViewFactory.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		2D78FE5C2B29EADE006ED549 /* observables */ = {
+			isa = PBXGroup;
+			children = (
+				2D78FE602B29EB18006ED549 /* Store.swift */,
+			);
+			path = observables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +217,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D51C3D42B27714400B25D0C /* ContentView.swift in Sources */,
-				2D51C3D62B27714400B25D0C /* Item.swift in Sources */,
+				2D1617C72B2B3110001C03FF /* NoDaysView.swift in Sources */,
+				2D51C3E92B27817D00B25D0C /* FInishUpScreen1.swift in Sources */,
+				2D51C3E72B27772E00B25D0C /* NewProject.swift in Sources */,
+				2D51C3D42B27714400B25D0C /* IndexView.swift in Sources */,
+				2D78FE592B286358006ED549 /* EditNoteSheet.swift in Sources */,
+				2D1617C92B2B444A001C03FF /* ViewFactory.swift in Sources */,
+				2D51C3D62B27714400B25D0C /* Project.swift in Sources */,
+				2D51C3E32B27732300B25D0C /* Day.swift in Sources */,
+				2D78FE612B29EB18006ED549 /* Store.swift in Sources */,
+				2D78FE682B29F7E9006ED549 /* FinishUpScreen2.swift in Sources */,
+				2D51C3E52B27757400B25D0C /* DetailView.swift in Sources */,
+				2D1617C42B2B2189001C03FF /* NoteView.swift in Sources */,
+				2D78FE662B29F3B9006ED549 /* NewProjectSheet.swift in Sources */,
 				2D51C3D22B27714400B25D0C /* Left_offApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +357,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Left off/Left_off.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Left off/Preview Content\"";
@@ -278,6 +366,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Left-off-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Left Off";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -286,15 +377,16 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baswilson.Left-off";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baswilson.leftoff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -309,6 +401,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Left off/Left_off.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Left off/Preview Content\"";
@@ -316,6 +410,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Left-off-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Left Off";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -324,15 +421,16 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.baswilson.Left-off";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baswilson.leftoff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
