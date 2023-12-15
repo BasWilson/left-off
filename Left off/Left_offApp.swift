@@ -16,7 +16,9 @@ struct Left_offApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Project.self,
-            Day.self
+            Day.self,
+            Food.self,
+            DrinkDay.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -40,13 +42,40 @@ struct Left_offApp: App {
         
         #if os(iOS)
         WindowGroup {
-            NavigationStack(path: $store.navPath) {
-                IndexView()
-                    .navigationDestination(for: AppView.self) { appview in
-                        ViewFactory.viewForDestination(appview)
-                    }
+            TabView {
+                NavigationStack(path: $store.navPath) {
+                    IndexView()
+                        .navigationDestination(for: AppView.self) { appview in
+                            ViewFactory.viewForDestination(appview)
+                        }
+                }
+                .environmentObject(store)
+                .tabItem {
+                    Label("Left off", systemImage: "folder.fill")
+                }
+                
+                NavigationStack(path: $store.foodPath) {
+                    Image(systemName: "door.garage.double.bay.closed.trianglebadge.exclamationmark")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 40)
+                    Text("Work in progress")
+                        .navigationTitle("Food")
+                }
+                .environmentObject(store)
+                .tabItem {
+                    Label("Food", systemImage: "fork.knife")
+                }
+                
+                NavigationStack {
+                    DrinksView()
+                }
+                .environmentObject(store)
+                .tabItem {
+                    Label("Coffee", systemImage: "mug.fill")
+                }
             }
-            .environmentObject(store)
+
         }
         .modelContainer(sharedModelContainer)
         #endif

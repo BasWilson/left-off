@@ -22,20 +22,24 @@ struct NewProjectSheet: View {
         NavigationStack {
             
             VStack {
-                                
-                TextField(
-                    text: $name,
-                    label: {
-                        Text("Project name")
-                    }
-                ).frame(width: .infinity)
-                    .textFieldStyle(.roundedBorder)
-                
-                Spacer().frame(height: 20)
+                                         
+                VStack {
+                    
+                    TextField(
+                        text: $name,
+                        label: {
+                            Text("Project name")
+                        }
+                    ).textFieldStyle(.automatic)
+                        .padding(.vertical)
+                        .multilineTextAlignment(.center)
+                }
+
+                Spacer()
+
 
                 #if os(macOS)
                 HStack() {
-                    Spacer()
                     
                     Button(
                         action: {
@@ -65,11 +69,15 @@ struct NewProjectSheet: View {
                     },
                     label: {
                         Text("Create Project")
+                        Image(systemName: "plus.circle.fill")
+
                     }
                 )
                 .buttonStyle(.borderedProminent)
                 .frame(width: .infinity)
                 #endif
+                
+                Spacer()
             }
             .padding()
             .navigationTitle("New Project")

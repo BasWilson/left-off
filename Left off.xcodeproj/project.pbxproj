@@ -10,6 +10,9 @@
 		2D1617C42B2B2189001C03FF /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617C32B2B2189001C03FF /* NoteView.swift */; };
 		2D1617C72B2B3110001C03FF /* NoDaysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617C62B2B3110001C03FF /* NoDaysView.swift */; };
 		2D1617C92B2B444A001C03FF /* ViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617C82B2B444A001C03FF /* ViewFactory.swift */; };
+		2D1617CD2B2C944D001C03FF /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617CC2B2C944D001C03FF /* Food.swift */; };
+		2D1617CF2B2C9648001C03FF /* DrinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617CE2B2C9648001C03FF /* DrinksView.swift */; };
+		2D1617D12B2C9695001C03FF /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1617D02B2C9695001C03FF /* Drink.swift */; };
 		2D51C3D22B27714400B25D0C /* Left_offApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D12B27714400B25D0C /* Left_offApp.swift */; };
 		2D51C3D42B27714400B25D0C /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D32B27714400B25D0C /* IndexView.swift */; };
 		2D51C3D62B27714400B25D0C /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3D52B27714400B25D0C /* Project.swift */; };
@@ -17,7 +20,6 @@
 		2D51C3DC2B27714400B25D0C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D51C3DB2B27714400B25D0C /* Preview Assets.xcassets */; };
 		2D51C3E32B27732300B25D0C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E22B27732300B25D0C /* Day.swift */; };
 		2D51C3E52B27757400B25D0C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E42B27757400B25D0C /* DetailView.swift */; };
-		2D51C3E72B27772E00B25D0C /* NewProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E62B27772E00B25D0C /* NewProject.swift */; };
 		2D51C3E92B27817D00B25D0C /* FInishUpScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D51C3E82B27817D00B25D0C /* FInishUpScreen1.swift */; };
 		2D78FE592B286358006ED549 /* EditNoteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78FE582B286358006ED549 /* EditNoteSheet.swift */; };
 		2D78FE612B29EB18006ED549 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D78FE602B29EB18006ED549 /* Store.swift */; };
@@ -30,6 +32,9 @@
 		2D1617C52B2B23DC001C03FF /* Left-off-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Left-off-Info.plist"; sourceTree = SOURCE_ROOT; };
 		2D1617C62B2B3110001C03FF /* NoDaysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDaysView.swift; sourceTree = "<group>"; };
 		2D1617C82B2B444A001C03FF /* ViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFactory.swift; sourceTree = "<group>"; };
+		2D1617CC2B2C944D001C03FF /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		2D1617CE2B2C9648001C03FF /* DrinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksView.swift; sourceTree = "<group>"; };
+		2D1617D02B2C9695001C03FF /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		2D51C3CE2B27714400B25D0C /* Left off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Left off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D51C3D12B27714400B25D0C /* Left_offApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Left_offApp.swift; sourceTree = "<group>"; };
 		2D51C3D32B27714400B25D0C /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; };
@@ -39,7 +44,6 @@
 		2D51C3DB2B27714400B25D0C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D51C3E22B27732300B25D0C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		2D51C3E42B27757400B25D0C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		2D51C3E62B27772E00B25D0C /* NewProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProject.swift; sourceTree = "<group>"; };
 		2D51C3E82B27817D00B25D0C /* FInishUpScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInishUpScreen1.swift; sourceTree = "<group>"; };
 		2D78FE582B286358006ED549 /* EditNoteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteSheet.swift; sourceTree = "<group>"; };
 		2D78FE602B29EB18006ED549 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
@@ -122,6 +126,8 @@
 			children = (
 				2D51C3E22B27732300B25D0C /* Day.swift */,
 				2D51C3D52B27714400B25D0C /* Project.swift */,
+				2D1617CC2B2C944D001C03FF /* Food.swift */,
+				2D1617D02B2C9695001C03FF /* Drink.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -132,9 +138,9 @@
 				2D51C3D32B27714400B25D0C /* IndexView.swift */,
 				2D51C3E42B27757400B25D0C /* DetailView.swift */,
 				2D51C3E82B27817D00B25D0C /* FInishUpScreen1.swift */,
-				2D51C3E62B27772E00B25D0C /* NewProject.swift */,
 				2D78FE672B29F7E9006ED549 /* FinishUpScreen2.swift */,
 				2D1617C82B2B444A001C03FF /* ViewFactory.swift */,
+				2D1617CE2B2C9648001C03FF /* DrinksView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -219,17 +225,19 @@
 			files = (
 				2D1617C72B2B3110001C03FF /* NoDaysView.swift in Sources */,
 				2D51C3E92B27817D00B25D0C /* FInishUpScreen1.swift in Sources */,
-				2D51C3E72B27772E00B25D0C /* NewProject.swift in Sources */,
 				2D51C3D42B27714400B25D0C /* IndexView.swift in Sources */,
 				2D78FE592B286358006ED549 /* EditNoteSheet.swift in Sources */,
 				2D1617C92B2B444A001C03FF /* ViewFactory.swift in Sources */,
 				2D51C3D62B27714400B25D0C /* Project.swift in Sources */,
+				2D1617CF2B2C9648001C03FF /* DrinksView.swift in Sources */,
 				2D51C3E32B27732300B25D0C /* Day.swift in Sources */,
+				2D1617CD2B2C944D001C03FF /* Food.swift in Sources */,
 				2D78FE612B29EB18006ED549 /* Store.swift in Sources */,
 				2D78FE682B29F7E9006ED549 /* FinishUpScreen2.swift in Sources */,
 				2D51C3E52B27757400B25D0C /* DetailView.swift in Sources */,
 				2D1617C42B2B2189001C03FF /* NoteView.swift in Sources */,
 				2D78FE662B29F3B9006ED549 /* NewProjectSheet.swift in Sources */,
+				2D1617D12B2C9695001C03FF /* Drink.swift in Sources */,
 				2D51C3D22B27714400B25D0C /* Left_offApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

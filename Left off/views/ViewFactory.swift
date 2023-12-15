@@ -8,7 +8,6 @@ enum AppView {
     case DetailView
     case FinishUpScreen1
     case FinishUpScreen2
-    case NewProject
 }
 
 class ViewFactory {
@@ -23,8 +22,6 @@ class ViewFactory {
             IndexView()
         case .FinishUpScreen2:
             FinishUpScreen2()
-        case .NewProject:
-            NewProject()
         }
     }
 }

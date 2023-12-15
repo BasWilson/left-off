@@ -10,6 +10,8 @@ import SwiftUI
 
 class Store: ObservableObject{
     @Published var navPath = [AppView]()
+    @Published var foodPath = [AppView]()
+
     @Published var note1 = ""
     @Published var project: Project?
 }
